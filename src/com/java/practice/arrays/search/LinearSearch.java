@@ -1,18 +1,16 @@
-package com.java.practice.arrays;
+package com.java.practice.arrays.search;
 
-public class FindElementInArray {
+public class LinearSearch {
     
+    // Linear Search - staring from the element at 0 index
     public int getElementIndex(int[] array, int element) {
-        
-        int index = -1;
         
         for(int i = 0; i < array.length; i++) {
             if (array[i] == element) {
-                index = i;
-                break;
+                return i;           
             }
         }
         
-        return index;
+        return -1;
     }
 }

@@ -1,10 +1,10 @@
-package com.java.practice.arrays;
+package com.java.practice.arrays.search;
 
 import java.util.InputMismatchException;
 import java.util.NoSuchElementException;
 import java.util.Scanner;
 
-public class FindElementInArrayTester {
+public class LinearSearchTester {
     
     public static void main(String[] args) {
         
@@ -18,7 +18,7 @@ public class FindElementInArrayTester {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Please enter a number to get index in the array: ");
         
-        FindElementInArray findElementInArray = new FindElementInArray();
+        LinearSearch findElementInArray = new LinearSearch();
         int element = 0;
         int indexOfElement = -1;
         
