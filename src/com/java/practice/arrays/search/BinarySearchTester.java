@@ -7,8 +7,18 @@ public class BinarySearchTester {
         
         int[] intArray = {0, 1, 2, 3, 4};
         
-        System.out.println("index of element " + intArray[0] + " is: " + binarySearch.search(intArray, 1) );
-        System.out.println("index of element " + intArray[0] + " is: " + binarySearch.recursiveBinarySearch(intArray, 0, intArray.length-1, 1));
+        System.out.print("Elements in array are: ");
+        for (int i = 0; i < intArray.length; i++) {
+            System.out.print(intArray[i] + " ");
+        }
+        
+        int numberToBeFound = 4;
+        int numberToBeFoundTwo = 1;
+        
+        System.out.println("\n\nThe number " + numberToBeFound + " is found at index: " + binarySearch.search(intArray, numberToBeFound));
+        System.out.println("\nRecursive Binary Search:");
+        System.out.println("The number " + numberToBeFoundTwo + " is found at index: " + binarySearch.search(intArray, numberToBeFoundTwo));
+        
     }
 
 }
