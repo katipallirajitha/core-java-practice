@@ -18,9 +18,9 @@ public class Employee {
     /**
      * Parameterized Constructor for Employee class.
      * 
-     * @param id
-     * @param name
-     * @param salary
+     * @param id ID of the employee
+     * @param name Name of the employee
+     * @param salary Salary of the employee
      */
     public Employee(String id, String name, double salary) {
         this.id = id;
@@ -59,7 +59,7 @@ public class Employee {
     /**
      * Setter method for name of the employee.
      * 
-     * @param name
+     * @param name Name of the employee
      */
     public void setName(String name) {
         this.name = name;
@@ -77,7 +77,7 @@ public class Employee {
     /**
      * Setter method for salary of the employee.
      * 
-     * @param salary
+     * @param salary Salary of the employee
      */
     public void setSalary(double salary) {
         this.salary = salary;
